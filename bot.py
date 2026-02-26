@@ -10,8 +10,8 @@ from telegram.ext import (
 )
 
 # ─── Настройки ────────────────────────────────────────────────────────────────
-BOT_TOKEN = os.getenv("BOT_TOKEN", "ВАШ_ТОКЕН_ЗДЕСЬ")
-ADMIN_IDS = [int(os.getenv("ADMIN_ID", "123456789"))]
+BOT_TOKEN = os.getenv("BOT_TOKEN", "7842828259:AAHbMZRllAQUROyVW2VRIVczswOPI0cbR78")
+ADMIN_IDS = [int(os.getenv("ADMIN_ID", "893992849"))]
 USERS_FILE = "users.json"
 
 # 🕐 Твой часовой пояс
