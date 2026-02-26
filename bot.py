@@ -9,8 +9,8 @@ from telegram.ext import (
 )
 
 # ─── Настройки ────────────────────────────────────────────────────────────────
-BOT_TOKEN = os.getenv("BOT_TOKEN", "ВАШ_ТОКЕН_ЗДЕСЬ")
-ADMIN_IDS = [int(os.getenv("ADMIN_ID", "123456789"))]
+BOT_TOKEN = "7842828259:AAHbMZRllAQUROyVW2VRIVczswOPI0cbR78"          # Вставь токен от @BotFather
+ADMIN_IDS = [893992849]                  # Вставь свой Telegram ID (узнать: @userinfobot)
 USERS_FILE = "users.json"               # База подписчиков
 
 logging.basicConfig(
